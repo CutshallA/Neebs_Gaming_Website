@@ -1,7 +1,7 @@
 
 :root{
     /* Variable for the Gold-Yellow in the Logo - will be used for font color */
-    --ng-yellow: rgba(254,192,45,255);
+    --ng-yellow: rgb(254,192,45);
 }
 
 /* Settings for body - background color to black and 20px margin */
@@ -50,14 +50,13 @@ p{
 /*Removing bullet points from nav bar, setting position from top*/
 ul{
     list-style-type: none;
-    top: 50;
+    top: 50px;
     width: 100%;
 }
 
 /*setting each link in nav bar to be next to each other*/
 li{
     display: inline-flex;
-    float: center;
 }
 
 /*Text settings for nav bar*/
