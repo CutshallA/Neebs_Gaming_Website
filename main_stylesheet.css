@@ -122,3 +122,8 @@ address{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
 }
+
+/*Setting font color to white for form label*/
+label{
+    color: white;
+}
