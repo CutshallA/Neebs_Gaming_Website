@@ -1,0 +1,125 @@
+
+:root{
+    /* Variable for the Gold-Yellow in the Logo - will be used for font color */
+    --ng-yellow: rgba(254,192,45,255);
+}
+
+/* Settings for body - background color to black and 20px margin */
+body{
+    background-color: black;
+    margin: 20px;
+}
+
+/* Settings for h1 tag (color, font type and size */
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+/* Settings for h2 tag (color and font type */
+h2{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/*Settings for a tag (color, font type and size)*/
+a{
+    color: var(--ng-yellow);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    /*Remove underline*/
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px;
+}
+
+/* Settings for p tag (color, font type and size)*/
+p{
+    color: var(--ng-yellow);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+
+}
+
+
+/*Nav bar styling*/
+
+/*Removing bullet points from nav bar, setting position from top*/
+ul{
+    list-style-type: none;
+    top: 50;
+    width: 100%;
+}
+
+/*setting each link in nav bar to be next to each other*/
+li{
+    display: inline-flex;
+    float: center;
+}
+
+/*Text settings for nav bar*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #000000;
+}
+
+/* Different background color when mouse is hovering over nav link */
+li a:hover{
+    background-color: rgb(37, 37, 37);
+}
+
+/* End Nav bar styling */
+
+/* Center logo at top of page */
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* Setting the font, color, size, and alignment for "Powered by Xidax" in the footer */
+#xidax{
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+/* Setting the text for "Neebs Gaming Studios" in footer */
+#ngs{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/* For text that I want to be white*/
+/* For the Live Events Page - Events Section */
+.event, .msg, .time, .loc{
+    color: white;
+}
+
+/*Setting text for address */
+address{
+    color: var(--ng-yellow);
+    font-style: normal;
+    font-size: 30px;
+}
+
+/* Setting font and background color for "Find out More" button on Patreon page */
+#patreon{
+    color: black;
+    background-color: var(--ng-yellow);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
