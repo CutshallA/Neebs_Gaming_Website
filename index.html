@@ -5,6 +5,7 @@
 
 <head>
     <link rel="stylesheet" href="main_stylesheet.css">
+    <link rel="stylesheet" href="index_slide_show.css">
 
     <meta charset="UTF-8">
     <title>Neebs Gaming</title>
@@ -29,7 +30,7 @@
     <!--Header-->
     <header>
         <!--Logo Picture-->
-        <a href="index.html"><img src="header/ng_logo.png" alt="Logo" width="275" height="125" class="logo"></a>
+        <a href="index.html"><img src="header/ng_logo.png" alt="Home" class="logo"></a>
         
         <!--Navigation Bar-->
         <nav>
@@ -46,30 +47,30 @@
 
     
     <!--Container for Slide Show Images-->
-    <div>
+    <div class="slideshow-container">
         <!--Slide Show Image 1-->
-        <div>
-            <img src="index/slide_image_1.png" alt="Slide Show Image 1" width="1200" height="600">
+        <div class="mySlides fade">
+            <img src="index/slide_image_1.png" alt="Slide Show Image 1" width="100%" >
         </div>
 
         <!--Slide Show Image 2-->
-        <div>
-            <img src="index/slide_image_2.png" alt="Slide Show Image 2" width="1200" height="600">
+        <div class="mySlides fade">
+            <img src="index/slide_image_2.png" alt="Slide Show Image 2" width="100%">
         </div>
 
         <!--Slide Show Image 3-->
-        <div>
-            <img src="index/slide_image_3.png" alt="Slide Show Image 3" width="1200" height="600">
+        <div class="mySlides fade">
+            <img src="index/slide_image_3.png" alt="Slide Show Image 3" width="100%">
         </div>
 
         <!--Slide Show Image 4-->
-        <div>
-            <img src="index/slide_image_4.png" alt="Slide Show Image 4" width="1200" height="600">
+        <div class="mySlides fade">
+            <img src="index/slide_image_4.png" alt="Slide Show Image 4" width="100%">
         </div>
 
         <!--Slide Show Image 5-->
-        <div>
-            <img src="index/slide_image_5.png" alt="Slide Show Image 5" width="1200" height="600">
+        <div class="mySlides fade">
+            <img src="index/slide_image_5.png" alt="Slide Show Image 5" width="100%">
         </div>
     </div>
 
@@ -77,35 +78,35 @@
         <p id="ngs">
             Neebs Gaming Studios
         </p>
-        <div>
+        <div class="socialBar">
             <!--Link to YouTube Channel-->
             <a href="https://www.youtube.com/neebsgaming">
-                <img src="footer/youtube_logo.png" alt="YouTube" width = "25" height="25">
+                <img id="social" src="footer/youtube_logo.png" alt="YouTube">
             </a>
 
             <!-- Link to Twitch Channel-->
             <a href="https://www.twitch.tv/neebsgaming">
-                <img src="footer/twitch_logo.png" alt="Twitch" width = "25" height="25">
+                <img id="social" src="footer/twitch_logo.png" alt="Twitch">
             </a>
 
             <!-- Link to Instagram-->
             <a href="https://www.instagram.com/neebsgaming">
-                <img src="footer/instagram_logo.png" alt="Instagram" width = "25" height="25">
+                <img id="social" src="footer/instagram_logo.png" alt="Instagram">
             </a>
 
             <!-- Link to Twitter-->
             <a href="https://www.twitter.com/NeebsOfficial">
-                <img src="footer/twitter_logo.png" alt="Twitter" width = "25" height="25">
+                <img id="social" src="footer/twitter_logo.png" alt="Twitter">
             </a>
 
             <!-- Link to Facebook-->
             <a href="https://www.facebook.com/neebsgaming">
-                <img src="footer/facebook_logo.png" alt="Facebook" width = "25" height="25">
+                <img id="social" src="footer/facebook_logo.png" alt="Facebook">
             </a>
 
             <!--Link to TikTok-->
             <a href="https://www.tiktok.com/@neebsofficial?lang=en">
-                <img src="footer/tiktok_logo.png" alt="TikTok" width = "25" height="25">
+                <img id="social" src="footer/tiktok_logo.png" alt="TikTok">
             </a>
         </div>
         
@@ -115,6 +116,8 @@
         <p id="xidax">Powered by Xidax</p>
 
     </footer>
+
+    <script src="slide_show_auto.js"></script>
 
 </body>
 
