@@ -5,7 +5,7 @@
 
 <head>
     <link rel="stylesheet" href="main_stylesheet.css">
-    <!--<link rel="stylesheet" href="live_events.css">-->
+    <link rel="stylesheet" href="live_events.css">
 
     <meta charset="UTF-8">
     <title>Live Events</title>
@@ -28,7 +28,7 @@
 <body>
     <header>
         <!--Logo Picture-->
-        <a href="index.html"><img src="header/ng_logo.png" alt="Logo" width="275" height="125" class="logo"></a>
+        <a href="index.html"><img src="header/ng_logo.png" alt="Home" class="logo"></a>
         
         <!--Navigation Bar-->
         <nav>
@@ -127,72 +127,76 @@
 
         <h2>LIVE SHOW GALLERY</h2>
         <!--Container for Slide Show-->
-        <div>
+        <div class="slideshow-container">
 
             <!--Slide Show Image 1 - Stage Pic 1-->
             <div>
-                <img src="live_events/ngl_img_1.png" alt="Live Events Pic 1" width="1000" height="600">
+                <img class="mySlides fade" src="live_events/ngl_img_1.png" alt="Neebs Gaming on Stage at Live Event" width="1000" height="600">
             </div>
 
             <!--Slide Show Image 2 - Nate & Jon-->
             <div>
-                <img src="live_events/ngl_img_2.png" alt="Live Events Pic 2" width="500" height="600">
+                <img class="mySlides fade" src="live_events/ngl_img_2.png" alt="Doraleous and Appsro playing Corn Hole" width="500" height="600">
             </div>
 
             <!--Slide Show Image 3 - Brent-->
             <div>
-                <img src="live_events/ngl_img_3.png" alt="Live Events Pic 3" width="500" height="600">
+                <img class="mySlides fade" src="live_events/ngl_img_3.png" alt="Neebs Locked and Loaded" width="500" height="600">
             </div>
 
             <!--Slide Show Image 4 - Stage Pic 2-->
             <div>
-                <img src="live_events/ngl_img_4.png" alt="Live Events Pic 4" width="500" height="600">
+                <img class="mySlides fade" src="live_events/ngl_img_4.png" alt="Neebs Gaming on Stage at Live Event" width="500" height="600">
             </div>
 
             <!--Slide Show Image 5 - Brent & Jon Robot Pic-->
             <div>
-                <img src="live_events/ngl_img_5.png" alt="Live Events Pic 5" width="650" height="600">
+                <img class="mySlides fade" src="live_events/ngl_img_5.png" alt="Neebs and Appsro in front of a robot" width="650" height="600">
             </div>
 
             <!--Slide Show Image 6 - Stage Pic 3-->
             <div>
-                <img src="live_events/ngl_img_6.png" alt="Live Events Pic 6" width="500" height="600">
+                <img class="mySlides fade" src="live_events/ngl_img_6.png" alt="Appsro on stage" width="500" height="600">
             </div>
 
             <!--Slide Show Image 7 - Stage Pic 4-->
             <div>
-                <img src="live_events/ngl_img_7.png" alt="Live Events Pic 7" width="700" height="600">
+                <img class="mySlides fade" src="live_events/ngl_img_7.png" alt="Neebs Gaming playing games live on stage" width="700" height="600">
             </div>
 
             <!--Slide Show Image 8 - RTX Panel Pic-->
             <div>
-                <img src="live_events/ngl_img_8.png" alt="Live Events Pic 8" width="700" height="600">
+                <img class="mySlides fade" src="live_events/ngl_img_8.png" alt="Thick, Appsro, Neebs, and Doraleous Panel at RTX" width="700" height="600">
             </div>
 
             <!--Slide Show Image 9 - Bryan Victory Stage Pic-->
             <div>
-                <img src="live_events/ngl_img_9.png" alt="Live Events Pic 9" width="500" height="600">
+                <img class="mySlides fade" src="live_events/ngl_img_9.png" alt="Simon Wins at Live Event" width="500" height="600">
             </div>
 
             <!--Slide Show Image 10 - Bryan Middle Group Pic-->
             <div>
-                <img src="live_events/ngl_img_10.png" alt="Live Events Pic 10" width="700" height="600">
+                <img class="mySlides fade" src="live_events/ngl_img_10.png" alt="Neebs Gaming and Crew Group Picture" width="700" height="600">
             </div>
 
             <!--Slide Show Image 11 - Nate Victory Stage Pic-->
             <div>
-                <img src="live_events/ngl_img_11.png" alt="Live Events Pic 11" width="500" height="600">
+                <img class="mySlides fade" src="live_events/ngl_img_11.png" alt="Doraleous Wins at Live Event" width="500" height="600">
             </div>
             
             <!--Slide Show Image 12 - Nate Magic Stage Pic-->
             <div>
-                <img src="live_events/ngl_img_12.png" alt="Live Events Pic 12" width="500" height="600">
+                <img class="mySlides fade" src="live_events/ngl_img_12.png" alt="Dora's Magic Extravaganza at Live Event" width="500" height="600">
             </div>
 
             <!--Slide Show Image 13 - Group Stage Pic-->
             <div>
-                <img src="live_events/ngl_img_13.png" alt="Live Events Pic 13" width="1000" height="600">
+                <img class="mySlides fade" src="live_events/ngl_img_13.png" alt="Neebs Gaming on stage at PLGX" width="1000" height="600">
             </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+	        <a class="next" onclick="plusSlides(1)">❯</a>
+
 
         </div>
 
@@ -208,13 +212,13 @@
         <form>
             
             <!--Name of User-->
-            <label for="u_name">Name</label>
+            <label for="u_name">Name </label>
             <input type="text" name="u_name" id="u_name">
 
             <br>
 
             <!--Email Address of User-->
-            <label for="email">Email Address</label>
+            <label for="email">Email  </label>
             <input type="text" name="email" id="email">
 
             <br>
@@ -230,29 +234,29 @@
             Neebs Gaming Studios
         </p>
 
-        <div>
+        <div class="socialBar">
             <a href="https://www.youtube.com/neebsgaming">
-                <img src="footer/youtube_logo.png" alt="YouTube" width = "25" height="25">
+                <img src="footer/youtube_logo.png" alt="YouTube">
             </a>
 
             <a href="https://www.twitch.tv/neebsgaming">
-                <img src="footer/twitch_logo.png" alt="Twitch" width = "25" height="25">
+                <img src="footer/twitch_logo.png" alt="Twitch">
             </a>
 
             <a href="https://www.instagram.com/neebsgaming">
-                <img src="footer/instagram_logo.png" alt="Instagram" width = "25" height="25">
+                <img src="footer/instagram_logo.png" alt="Instagram">
             </a>
 
             <a href="https://www.twitter.com/NeebsOfficial">
-                <img src="footer/twitter_logo.png" alt="Twitter" width = "25" height="25">
+                <img src="footer/twitter_logo.png" alt="Twitter">
             </a>
 
             <a href="https://www.facebook.com/neebsgaming">
-                <img src="footer/facebook_logo.png" alt="Facebook" width = "25" height="25">
+                <img src="footer/facebook_logo.png" alt="Facebook">
             </a>
 
             <a href="https://www.tiktok.com/@neebsofficial?lang=en">
-                <img src="footer/tiktok_logo.png" alt="TikTok" width = "25" height="25">
+                <img src="footer/tiktok_logo.png" alt="TikTok">
             </a>
         </div>
         
@@ -262,6 +266,8 @@
 
     </footer>
 
+    <script src="slide_show.js"></script>
+    
 </body>
 
 
