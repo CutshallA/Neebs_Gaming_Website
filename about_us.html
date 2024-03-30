@@ -5,6 +5,7 @@
 
 <head>
     <link rel="stylesheet" href="main_stylesheet.css">
+    <link rel="stylesheet" href="about_us.css">
 
     <meta charset="UTF-8">
     <title>About Us</title>
@@ -29,7 +30,7 @@
     <!--Header-->
     <header>
         <!--Logo Picture-->
-        <a href="index.html"><img src="header/ng_logo.png" alt="Logo" width="275" height="125" class="logo"></a>
+        <a href="index.html"><img src="header/ng_logo.png" alt="Home" class="logo"></a>
         
         <!--Navigation Bar-->
         <nav>
@@ -56,39 +57,53 @@
         </div>
 
 
-        <!--BFFs Picture-->
-        <img src="about_us/bffs.png" alt="Battlefield Friends" width="700" height="1000">
+        <div id="gridContainer">
 
-        <!--Origin-->
-        <h2>BEGINNINGS</h2>
-        <p>
-            The Hank and Jed YouTube channel was started in 2006. Five friends with day jobs, getting together on the weekends to make animations. It soon grew
-            and then we made a gaming channel - Neebs Gaming - in 2014. Since then, thanks to you, we have been able to make this into our full time jobs.
-        </p>
+            <!--BFFs Picture-->
+            <img id="bffs" src="about_us/bffs.png" alt="Battlefield Friends">
 
-        <!--Community-->
-        <h2>OUR COMMUNITY</h2>
-        <p>
-            The greatest community on earth!
-            Definitely the kindest.
-        </p>
+            <!--Origin-->
+            <div id="begin">
+                <h2>BEGINNINGS</h2>
+                <p>
+                    The Hank and Jed YouTube channel was started in 2006. Five friends with day jobs, getting together on the weekends to make animations. It soon grew
+                    and then we made a gaming channel - Neebs Gaming - in 2014. Since then, thanks to you, we have been able to make this into our full time jobs.
+                </p>
+            </div>
 
-        <!--Goal-->
-        <h2>OUR GOAL</h2>
-        <p>
-            World Peace! We want to spread joy and laughter into people's lives and encourage people to follow their dreams.
-        </p>
+            <!--Community-->
+            <div id="comm">
+                <h2>OUR COMMUNITY</h2>
+                <p>
+                    The greatest community on earth!
+                    Definitely the kindest.
+                </p>
+            </div>
 
+            <!--Goal-->
+            <div id="goal">
+                <h2>OUR GOAL</h2>
+                <p>
+                    World Peace! We want to spread joy and laughter into people's lives and encourage people to follow their dreams.
+                </p>
+            </div>
+
+
+        </div>
 
         <!--Cast-->
+        <div id="cast">
         <h2>THE NEEBS GAMING CAST</h2>
+        <div id="gridContainerCast">
 
-        <img src="about_us/appsro.png" alt="Appsro" height="200" width="200">
-        <img src="about_us/dora.png" alt="Doraleous" height="200" width="200">
-        <img src="about_us/neebs.png" alt="Neebs" height="200" width="200">
-        <img src="about_us/simon.png" alt="Simon" height="200" width="200">
-        <img src="about_us/thick.png" alt="Thick44" height="200" width="200">
+            <img id="appsro" src="about_us/appsro.png" alt="Appsro" height="200" width="200">
+            <img id="dora" src="about_us/dora.png" alt="Doraleous" height="200" width="200">
+            <img id="neebs" src="about_us/neebs.png" alt="Neebs" height="200" width="200">
+            <img id="simon" src="about_us/simon.png" alt="Simon" height="200" width="200">
+            <img id="thick" src="about_us/thick.png" alt="Thick44" height="200" width="200">
+        </div>
 
+        </div>
     </main>
   
 
@@ -96,35 +111,35 @@
         <p id="ngs">
             Neebs Gaming Studios
         </p>
-        <div>
+        <div class="socialBar">
             <!--Link to YouTube Channel-->
             <a href="https://www.youtube.com/neebsgaming">
-                <img src="footer/youtube_logo.png" alt="YouTube" width = "25" height="25">
+                <img id="social" src="footer/youtube_logo.png" alt="YouTube">
             </a>
 
             <!-- Link to Twitch Channel-->
             <a href="https://www.twitch.tv/neebsgaming">
-                <img src="footer/twitch_logo.png" alt="Twitch" width = "25" height="25">
+                <img id="social" src="footer/twitch_logo.png" alt="Twitch">
             </a>
 
             <!-- Link to Instagram-->
             <a href="https://www.instagram.com/neebsgaming">
-                <img src="footer/instagram_logo.png" alt="Instagram" width = "25" height="25">
+                <img id="social" src="footer/instagram_logo.png" alt="Instagram">
             </a>
 
             <!-- Link to Twitter-->
             <a href="https://www.twitter.com/NeebsOfficial">
-                <img src="footer/twitter_logo.png" alt="Twitter" width = "25" height="25">
+                <img id="social" src="footer/twitter_logo.png" alt="Twitter">
             </a>
 
             <!-- Link to Facebook-->
             <a href="https://www.facebook.com/neebsgaming">
-                <img src="footer/facebook_logo.png" alt="Facebook" width = "25" height="25">
+                <img id="social" src="footer/facebook_logo.png" alt="Facebook">
             </a>
 
             <!--Link to TikTok-->
             <a href="https://www.tiktok.com/@neebsofficial?lang=en">
-                <img src="footer/tiktok_logo.png" alt="TikTok" width = "25" height="25">
+                <img id="social" src="footer/tiktok_logo.png" alt="TikTok">
             </a>
         </div>
         
