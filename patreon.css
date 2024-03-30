@@ -1,0 +1,18 @@
+
+.gridContainer{
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 40rem 10rem 10rem 17rem 10rem;
+}
+
+
+#image{
+    grid-area: 1 / 1 / 3 / 3;
+    width: 50rem;
+    height: 25rem;
+}
+
+#para{
+    grid-area: 1 / 3 / 2 / 6;
+}
+ 

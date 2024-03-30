@@ -1,0 +1,25 @@
+
+.img1{
+    grid-area: img1;
+}
+
+.img2{
+    grid-area: img2;
+}
+
+.merchGrid{
+    display: grid;
+    grid-template-areas: "img1 img2";
+    justify-content: space-evenly;
+    padding: 1.5rem;
+}
+
+.coffee{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+}
+
