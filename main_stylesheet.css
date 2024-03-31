@@ -7,14 +7,16 @@
 /* Settings for body - background color to black and 20px margin */
 body{
     background-color: black;
-    margin: 20px;
+    margin: 2rem;
+    padding: 2rem;
 }
 
 /* Settings for h1 tag (color, font type and size */
 h1{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+    font-size: 3.125rem;
+    padding: 1rem 3rem;
 }
 
 /* Settings for h2 tag (color and font type */
@@ -28,19 +30,19 @@ h2{
 a{
     color: var(--ng-yellow);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 18px;
+    font-size: 1.125rem;
     /*Remove underline*/
     text-decoration: none;
     text-transform: uppercase;
-    padding: 25px;
+    padding: 1.5rem;
 }
 
 /* Settings for p tag (color, font type and size)*/
 p{
     color: var(--ng-yellow);
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
+    padding: 1.25rem 3rem;
 
 }
 
@@ -50,8 +52,9 @@ p{
 /*Removing bullet points from nav bar, setting position from top*/
 ul{
     list-style-type: none;
-    top: 50px;
-    width: 100%;
+    top: 3.125rem;
+    width: 65%;
+    margin: auto;
 }
 
 /*setting each link in nav bar to be next to each other*/
@@ -64,7 +67,7 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.875rem 1rem;
     text-decoration: none;
     background-color: #000000;
 }
@@ -81,12 +84,14 @@ li a:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 17rem;
+    height: 7.8rem;
   }
 
 /* Setting the font, color, size, and alignment for "Powered by Xidax" in the footer */
 #xidax{
     color: white;
-    font-size: 15px;
+    font-size: 1rem;
     text-align: right;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -96,7 +101,7 @@ li a:hover{
 /* Setting the text for "Neebs Gaming Studios" in footer */
 #ngs{
     color: white;
-    font-size: 30px;
+    font-size: 1.75rem;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
@@ -112,7 +117,8 @@ li a:hover{
 address{
     color: var(--ng-yellow);
     font-style: normal;
-    font-size: 30px;
+    font-size: 1.875rem;
+    padding-top: 12rem;
 }
 
 /* Setting font and background color for "Find out More" button on Patreon page */
@@ -120,11 +126,26 @@ address{
     color: black;
     background-color: var(--ng-yellow);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+    font-size: 1.4rem;
+    grid-area: 2 / 4 / 3 / 5;
+    align-content: center;
+    font-weight: bold;
 }
 
-/*Setting font color and type to white for form label*/
+/*Setting font color to white for form label*/
 label{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
+
+.socialBar{
+    width: 35%;
+    margin: auto;
+}
+
+#social{
+    width: 1.50rem;
+    height: 1.50rem;
+}
+
