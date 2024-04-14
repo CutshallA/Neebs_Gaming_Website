@@ -51,8 +51,17 @@
                           ". msg loc";
 }
 
+#news{
+  float: left;
+}
+
+form{
+  padding: 5.5rem 1rem;
+}
+
 input{
-  padding: 0.3rem;
+  padding: 0.5rem;
+  margin: 1rem 0.5rem;
 }
 
 /*Learned how to do a Slideshow container from W3 Schools*/
