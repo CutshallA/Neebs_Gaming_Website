@@ -29,7 +29,7 @@
     
 }
 
-#videoRows{
+.videoRows{
     display: grid;
     grid-template-areas: "thumbnail1 thumbnail2"
                          "link1 link2";
@@ -38,7 +38,7 @@
     padding: 1.5rem;
 }
 
-#videoRowsSingle{
+.videoRowsSingle{
     display: grid;
     width: 57%;
     grid-template-areas: "thumbnail1 ."
